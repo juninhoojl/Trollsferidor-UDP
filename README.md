@@ -1,10 +1,10 @@
 ![Troll](imagens/troll.png)
-##Versão
+## Versão
 1.0.0
-##Disponibilizado
+## Disponibilizado
 Junho - 2018
 
-##Desenvolvido Por
+## Desenvolvido Por
 ```
 André Felipe Magalhães Silva - CCO
 	- Email: andrefelipe1@hotmail.com
@@ -18,12 +18,12 @@ José Luiz Corrêa Junior - CCO
 > Itajubá - MG
 >>Universidade Federal de Itajubá - UNIFEI
 
-##O TROLLSFERIDOR UDP® consiste em 3 executáveis
+## O TROLLSFERIDOR UDP® consiste em 3 executáveis
 * Cliente-Envia.exe
 * CLiente-Recebe.exe
 * Servidor.exe
 
-##Uma Breve História do Trollsferidor UDP®
+## Uma Breve História do Trollsferidor UDP®
 
 O **Trollsferidor UDP®** consiste em um conjunto de 3 programas escritos em C para permitir a transferência de arquivos entre diferentes hosts, embora na compilação padrão e no exemplo esteja sendo utilizada a mesma máquina.
 
@@ -33,9 +33,9 @@ O **Trollsferidor UDP®** consiste em um conjunto de 3 programas escritos em C p
 
 *- Por ser destinado para estudo os codigos utilizados também se encontram disponíveis para serem alterados e recompilados como desejado.*
 
-##Organizacao inicial dos arquivos
+## Organizacao inicial dos arquivos
 
-> ####Trollsferidor_UDP
+> #### Trollsferidor_UDP
 >>Readme
 >>>Readme.md
 
@@ -90,7 +90,7 @@ O **Trollsferidor UDP®** consiste em um conjunto de 3 programas escritos em C p
 
 
 
-##Considerações importantes:
+## Considerações importantes:
 
 
 - Os Sistemas Operacional Suportado é o Microsoft Windows
@@ -112,20 +112,20 @@ O **Trollsferidor UDP®** consiste em um conjunto de 3 programas escritos em C p
 
 ![config](imagens/configur.png)
 
-##Configuração do Cliente-Recebe.exe
+## Configuração do Cliente-Recebe.exe
 
 O `Cliente-Recebe` tem como função solicitar a transferência de um arquivo por meio da busca pelo nome do mesmo.
 	
 * Somente tem como entrada o nome do arquivo desejado.
 
-##Configuração do Cliente-Envia.exe
+## Configuração do Cliente-Envia.exe
 O `Cliente_Envia.exe` tem como função possuir os arquivos requisitados e os enviar.
 
 *Obs.: Apenas fica em escuta após ter sido iniciado, aguardando conexão.*
 
 * Não recebe nada como entrada.
 
-#Configuração do Servidor.exe
+# Configuração do Servidor.exe
 
 O `Servidor.exe` tem com função rastrear o possuidor dos arquivos desejados.
 
@@ -145,7 +145,7 @@ O `Servidor.exe` tem com função rastrear o possuidor dos arquivos desejados.
 
 ![Exemplo](imagens/exemplo.png)
 
-####O que será usado nesse exemplo:
+#### O que será usado nesse exemplo:
 * Cliente-Recebe.exe
 * Cliente-Envia.exe
 * Servidor.exe
